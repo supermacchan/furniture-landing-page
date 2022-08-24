@@ -1,0 +1,48 @@
+.header {
+    @extend %container;
+
+    display: flex;
+    align-items: center;
+    background-color: darkblue;
+    padding: 40px 80px;
+}
+
+.header__nav {
+    display: flex;
+    align-items: baseline;
+}
+
+.header__logo {
+    @extend %link;
+
+    font-size: 28px;
+    line-height: 1.18;
+    letter-spacing: 0.01em;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: $invert-text-color;
+}
+.header__menu {
+    @extend %list;
+
+    display: flex;
+    align-items: center;
+}
+
+.header__sub-menu {
+    display: none;
+}
+
+.header__link {
+    @extend %link;
+
+    font-size: 18px;
+    line-height: 1.17;
+    font-weight: 500;
+    
+    color: $invert-text-color;
+}
+
+.header__cart {
+    margin-left: auto;
+}

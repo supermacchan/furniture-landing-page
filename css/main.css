@@ -1,1 +1,74 @@
-/*# sourceMappingURL=main.css.map */
+.header__link, .header__logo {
+  text-decoration: none;
+}
+
+.header {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: darkblue;
+  padding: 40px 80px;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.header__logo {
+  font-size: 28px;
+  line-height: 1.18;
+  letter-spacing: 0.01em;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__sub-menu {
+  display: none;
+}
+
+.header__link {
+  font-size: 18px;
+  line-height: 1.17;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.header__cart {
+  margin-left: auto;
+}/*# sourceMappingURL=main.css.map */

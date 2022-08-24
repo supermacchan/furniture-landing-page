@@ -10,6 +10,7 @@
 .header__nav {
     display: flex;
     align-items: baseline;
+    width: 100%;
 }
 
 .header__logo {
@@ -22,11 +23,20 @@
     text-transform: capitalize;
     color: $invert-text-color;
 }
+
 .header__menu {
     @extend %list;
 
     display: flex;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__menu-item {
+    &:not(:last-child) {
+        margin-right: 63px;
+    }
 }
 
 .header__sub-menu {
